@@ -31,6 +31,7 @@ body {
 
 #logo-title {
   position: absolute;
+  width: 100%;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -99,6 +100,37 @@ body {
 
 .column-1 {
   margin-right: 0.5%;
+}
+
+.column-1 h2 {
+  font-size: 30px;
+  padding-bottom: 10px;
+}
+
+.column-1 h2 span{
+  padding-right: 30px;
+}
+
+.fa-rss-square {
+  color: orange;
+  font-size: 30px;
+  padding
+}
+
+.column-1 ul {
+  margin: 0;
+  padding: 0;
+}
+
+.column-1 ul li {
+  list-style: none;
+  padding-bottom: 8px;
+}
+
+.column-1 ul li a{
+  text-decoration: none;
+  color: green;
+  font-weight: bold;
 }
 
 .column-2 {
